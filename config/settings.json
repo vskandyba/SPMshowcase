@@ -1,0 +1,22 @@
+{
+	"working_paths": {
+		"csv_in_path": "hdfs://quickstart.cloudera:8020/user/cloudera/SPMshowcase/resources/input/",
+		"parquet_out_path": "hdfs://quickstart.cloudera:8020/user/cloudera/SPMshowcase/resources/output/",
+
+		"dataMarts_out_path": "hdfs://quickstart.cloudera:8020/user/cloudera/SPMshowcase/resources/output/DataMartFromSQL/",
+
+		"corporatePayments_path": "hdfs://quickstart.cloudera:8020/user/cloudera/SPMshowcase/resources/output/DataMartFromSpark/corporate_payments",
+		"corporateAccount_path": "hdfs://quickstart.cloudera:8020/user/cloudera/SPMshowcase/resources/output/DataMartFromSpark/corporate_account",
+		"corporateInfo_path": "hdfs://quickstart.cloudera:8020/user/cloudera/SPMshowcase/resources/output/DataMartFromSpark/corporate_info",
+
+		"tech_file": "hdfs://quickstart.cloudera:8020/user/cloudera/SPMshowcase/config/calculation_params_tech.csv",
+		"sql_path": "hdfs://quickstart.cloudera:8020/user/cloudera/SPMshowcase/resources/SQL/"
+	},
+
+	"db_connecting": {
+		"driver": "org.postgresql.Driver",
+		"url":	"jdbc:postgresql://localhost:5432/mytest",
+		"user": "postgres",
+		"password": "mysecretpassword"
+	}
+}
